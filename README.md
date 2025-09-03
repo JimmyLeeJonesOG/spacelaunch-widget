@@ -173,9 +173,10 @@ Or contact us by email at [info@spacelaunch.dev](mailto:info@spacelaunch.dev)
 
 ## API
 ### Making Requests
-- Fire GET requests to https://spacelaunch.dev/api/launches with the parameters described in the docs.
-- Sample request:<br> 
-```bash curl --request GET 'https://spacelaunch.dev/api/launches?provider=Blue%20Origin&rocket=New%20Shepard&status=To%20Be%20Determined&description=new&has_webcasts=true&limit=10&is_test=false' ```
+Fire GET requests to https://spacelaunch.dev/api/launches with the parameters described in the docs.<br> 
+```bash 
+curl --request GET 'https://spacelaunch.dev/api/launches?provider=Blue%20Origin&rocket=New%20Shepard&status=To%20Be%20Determined&description=new&has_webcasts=true&limit=10&is_test=false' 
+```
 
 ### DOCS
 - Swagger UI: https://spacelaunch.dev/api/docs
