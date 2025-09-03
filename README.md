@@ -166,6 +166,13 @@ Or contact us by email at [info@spacelaunch.dev](mailto:info@spacelaunch.dev)
 
 ---
 
+## API Docs
+- Swagger UI: https://spacelaunch.dev/api/docs
+- ReDoc: https://spacelaunch.dev/api/redoc
+- OpenAPI JSON: https://spacelaunch.dev/api/openapi.json
+
+---
+
 ## Support
 
 - Issues & feature requests: GitHub Issues
