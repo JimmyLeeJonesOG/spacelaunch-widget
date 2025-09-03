@@ -56,7 +56,7 @@ Common options:
 
 ---
 
-## WordPress (optional)
+## WordPress
 
 Add this to your theme’s `functions.php` or a tiny plugin:
 
