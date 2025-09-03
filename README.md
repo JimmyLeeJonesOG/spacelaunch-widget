@@ -4,9 +4,10 @@ Lightweight, copy-paste widget + API for upcoming rocket launches.
 
 - **30-second embed** (no build, no deps)
 - Filters & search via query params / data-attrs
-- CSV / ICS & advanced filters in **Pro** (free for early signups)
+- CSV / Calendar imports & advanced filters
+- REST API
 
-**Live site:** https://spacelaunch.dev/?utm_source=github&utm_medium=repo&utm_campaign=spacelaunch_widget
+[**Check out our demo site**](https://spacelaunch.dev/?utm_source=github&utm_medium=repo&utm_campaign=spacelaunch_widget)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 ![Status](https://img.shields.io/badge/status-beta-blue.svg)
@@ -14,7 +15,7 @@ Lightweight, copy-paste widget + API for upcoming rocket launches.
 
 ---
 
-## Quick start (HTML — simplest)
+## Quick start (HTML - simplest)
 
 Create an HTML file and paste:
 
@@ -35,7 +36,7 @@ Create an HTML file and paste:
 </html>
 ```
 
-Open the file — done.
+Open the file - done.
 
 ### Options (as `data-*` or URL query params)
 
@@ -161,12 +162,18 @@ export default function Page() {
 - Custom theming 
 
 
-Join here: https://spacelaunch.dev/?utm_source=github&utm_medium=repo&utm_campaign=spacelaunch_widget<br>
+Join [here](https://spacelaunch.dev/?utm_source=github&utm_medium=repo&utm_campaign=spacelaunch_widget)<br>
 Or contact us by email at [info@spacelaunch.dev](mailto:info@spacelaunch.dev)
 
 ---
 
-## API Docs
+## API
+### Making Requests
+- Fire GET requests to https://spacelaunch.dev/api/launches with the parameters described in the docs.
+- Sample request:<br> 
+```bash curl --request GET 'https://spacelaunch.dev/api/launches?provider=Blue%20Origin&rocket=New%20Shepard&status=To%20Be%20Determined&description=new&has_webcasts=true&limit=10&is_test=false' ```
+
+### DOCS
 - Swagger UI: https://spacelaunch.dev/api/docs
 - ReDoc: https://spacelaunch.dev/api/redoc
 - OpenAPI JSON: https://spacelaunch.dev/api/openapi.json
