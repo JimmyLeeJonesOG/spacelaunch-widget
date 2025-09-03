@@ -3,8 +3,8 @@
 Lightweight, copy-paste widget + API for upcoming rocket launches.
 
 - **30-second embed** (no build, no deps)
-- Filters & search via query params / data-attrs
-- CSV / Calendar imports & advanced filters
+- Filters & search via UI / query params
+- CSV export / Calendar imports
 - REST API
 
 [**Check out our demo site**](https://spacelaunch.dev/?utm_source=github&utm_medium=repo&utm_campaign=spacelaunch_widget)
@@ -12,6 +12,10 @@ Lightweight, copy-paste widget + API for upcoming rocket launches.
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 ![Status](https://img.shields.io/badge/status-beta-blue.svg)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
+---
+
+![demo site](screenshot.png)
 
 ---
 
