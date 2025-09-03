@@ -15,7 +15,7 @@ Lightweight, copy-paste widget + API for upcoming rocket launches.
 
 ---
 
-![demo site](screenshot.png)
+![embedable screenshot](screenshot.png)
 
 ---
 
