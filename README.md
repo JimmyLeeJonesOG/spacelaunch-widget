@@ -6,7 +6,7 @@ Lightweight, copy-paste widget + API for upcoming rocket launches.
 - Filters & search via query params / data-attrs
 - CSV / ICS & advanced filters in **Pro** (free for early signups)
 
-**Live site & docs:** https://spacelaunch.dev/?utm_source=github&utm_medium=repo&utm_campaign=spacelaunch_widget
+**Live site:** https://spacelaunch.dev/?utm_source=github&utm_medium=repo&utm_campaign=spacelaunch_widget
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 ![Status](https://img.shields.io/badge/status-beta-blue.svg)
